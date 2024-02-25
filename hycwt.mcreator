@@ -1,0 +1,78 @@
+{
+  "mod_elements": [
+    {
+      "name": "Empathy",
+      "type": "enchantment",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "empathy"
+    },
+    {
+      "name": "EmpathyChangeLocation",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "empathy_change_location",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "enchantment.hycwt.empathy": "Empathy"
+    },
+    "zh_cn": {
+      "enchantment.hycwt.empathy": "换位思考"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "hycwt",
+    "modName": "Hyc\u0027s Weird Thoughts",
+    "version": "0.0.1",
+    "description": "Some weird thoughts of hyc",
+    "author": "hycqwq",
+    "websiteURL": "https://hycqwq.top",
+    "license": "Apache License version 2.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.hycwt",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200234517
+}
