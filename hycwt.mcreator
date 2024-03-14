@@ -39,16 +39,42 @@
           }
         ]
       }
+    },
+    {
+      "name": "Evacuation",
+      "type": "enchantment",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "evacuation"
+    },
+    {
+      "name": "Evacuate",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "evacuate",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "enchantment.hycwt.empathy": "Empathy"
+      "enchantment.hycwt.empathy": "Empathy",
+      "enchantment.hycwt.evacuation": "Evacuation"
     },
     "zh_cn": {
-      "enchantment.hycwt.empathy": "换位思考"
+      "enchantment.hycwt.empathy": "换位思考",
+      "enchantment.hycwt.evacuation": "肇事逃逸"
     }
   },
   "foldersRoot": {
@@ -58,7 +84,7 @@
   "workspaceSettings": {
     "modid": "hycwt",
     "modName": "Hyc\u0027s Weird Thoughts",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "Some weird thoughts of hyc",
     "author": "hycqwq",
     "websiteURL": "https://hycqwq.top",
